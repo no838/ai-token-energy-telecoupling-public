@@ -1,0 +1,11 @@
+Reagent or resource,Source,Identifier,Notes
+Public AI demand proxy tables,Project analysis-ready data,data/analysis_ready/,Derived country-level public demand indicators
+Compute-host allocation summaries,Project analysis-ready data,data/analysis_ready/token_compute_electricity_flows_*.csv,Modeled host allocation and electricity-burden outputs
+Electricity and carbon parameters,Project analysis-ready data,data/analysis_ready/one_earth_si_table_s3_electricity_carbon_parameters_2026-05-17.csv,Parameter provenance and conversion boundaries
+ResourceTrade / Chatham House trade data,Chatham House,N/A; add before submission,Fossil import-source exposure source
+Ember electricity/carbon data,Ember,data/analysis_ready/electricity_carbon.csv,Annual location-based grid intensity where used
+IEA reports,International Energy Agency,N/A; add before submission,Context for AI and data-center electricity demand
+Minimal null model table,Project analysis-ready data,data/analysis_ready/null_model_robustness_minimal.csv,Robustness diagnostic
+Grouped sensitivity screen,Project analysis-ready data,data/analysis_ready/burden_sensitivity_minimal.csv,"Screening diagnostic, not formal variance decomposition"
+Python,Python Software Foundation,N/A; add before submission,Analysis and document generation
+pandas,pandas project,N/A; add before submission,Data processing

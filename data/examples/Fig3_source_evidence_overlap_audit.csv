@@ -1,0 +1,7 @@
+evidence_class,host_prior,plausibility_score,country_count
+capacity prior,1,1,35
+data-center footprint,1,1,31
+cloud GPU regions,1,1,33
+AI cluster evidence,0,1,26
+public load/capacity,0,1,9
+hyperscale MW,0,1,6

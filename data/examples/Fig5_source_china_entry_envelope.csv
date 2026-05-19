@@ -1,0 +1,4 @@
+metric,p05,p50,p95,unit
+host rank,14.0,25.0,32.0,rank
+electricity proxy,0.347,0.724,1.452,TWh
+direct CO2 proxy,0.167197,0.372933,0.798081,Mt
