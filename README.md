@@ -1,5 +1,7 @@
 # Displaced AI electricity and carbon burden: schematic code package
 
+Repository URL: https://github.com/no838/ai-token-energy-telecoupling-public
+
 This repository is a lightweight, public-facing code package for the manuscript
 **"Displaced electricity and carbon burdens of artificial intelligence demand under constrained compute infrastructure"**.
 

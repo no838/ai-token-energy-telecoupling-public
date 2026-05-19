@@ -3,7 +3,7 @@
 ## Data availability
 
 All manuscript-facing derived tables, figure source data, schema manifests, and claim-evidence alignment
-tables are released in the accompanying public code/data repository and archival repository package.
+tables are released in the accompanying public GitHub code/data repository (https://github.com/no838/ai-token-energy-telecoupling-public) and will also be deposited in an archival repository package before publication.
 The release includes derived country-level demand proxies, host-allocation summaries, uncertainty
 envelopes, pathway robustness tables, figure source data, supplementary tables, null-model diagnostics,
 grouped sensitivity screens, and claim-gated evidence matrices.
@@ -16,7 +16,7 @@ observed in the current evidence frontier; they are not withheld by the author.
 
 ## Code availability
 
-A lightweight public code package is released with schematic figure-building scripts, manuscript-facing
+A lightweight public code package is released at https://github.com/no838/ai-token-energy-telecoupling-public with schematic figure-building scripts, manuscript-facing
 figure source data, claim-evidence tables, a key-resources table, and release-scope documentation. The
 code is designed to rebuild demonstration versions of the manuscript figures from included derived CSVs
 and to document the claim gates used by the analysis. It is not a full private-data reconstruction and
