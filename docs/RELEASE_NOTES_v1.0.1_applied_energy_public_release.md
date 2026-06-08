@@ -48,9 +48,6 @@ on public evidence and derived source tables. It does not provide observed
 provider routing, measured facility-level AI load, or procurement-resolved
 attribution.
 
-## Zenodo note
+## Zenodo archive
 
-If Zenodo archiving is enabled for this repository, this tagged release should
-be the archive target. The archived DOI should be added to `CITATION.cff` and
-manuscript availability statements only after Zenodo successfully mints the
-record.
+This release has been archived by Zenodo under DOI `10.5281/zenodo.20590015`.

@@ -6,6 +6,7 @@ version: "v1.0.1-applied-energy-public-release"
 date-released: 2026-06-08
 url: "https://github.com/no838/ai-token-energy-telecoupling-public"
 repository-code: "https://github.com/no838/ai-token-energy-telecoupling-public"
+doi: "10.5281/zenodo.20590015"
 license: "MIT"
 authors:
   - family-names: "Zhou"

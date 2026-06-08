@@ -237,4 +237,4 @@ Manuscript-facing derived tables, figure source data, schema records, claim-evid
 ## Citation
 
 For review, cite this repository using the repository URL and commit hash.
-After acceptance, cite the archived release DOI if one is minted.
+The current archived Zenodo DOI is `10.5281/zenodo.20590015`.

@@ -1,4 +1,4 @@
-# Zenodo archive checklist
+# Zenodo archive record
 
 ## Target release
 
@@ -15,20 +15,14 @@ v1.0.1-applied-energy-public-release
 - `THIRD_PARTY_DATA_NOTICE.md`
 - `docs/RELEASE_NOTES_v1.0.1_applied_energy_public_release.md`
 
-## Manual actions still required
+## Archive result
 
-1. Enable the GitHub repository under the connected Zenodo account.
-2. Create or publish a GitHub release from the existing tag
-   `v1.0.1-applied-energy-public-release`.
-3. Wait for Zenodo to archive the release and mint the DOI.
-4. Record the DOI in:
-   - `CITATION.cff`
-   - `docs/DATA_AND_CODE_AVAILABILITY.md`
-   - the active manuscript `Data availability` and `Code availability`
-     paragraphs
+- Zenodo DOI: `10.5281/zenodo.20590015`
+- GitHub release tag: `v1.0.1-applied-energy-public-release`
 
-## Do not do before DOI exists
+## Follow-up updates required
 
-- do not write a Zenodo DOI into the manuscript
-- do not write a Zenodo DOI into `CITATION.cff`
-- do not describe Zenodo archiving as complete
+1. Record the DOI in `CITATION.cff`.
+2. Record the DOI in `docs/DATA_AND_CODE_AVAILABILITY.md`.
+3. Record the DOI in the active manuscript `Data availability` and
+   `Code availability` paragraphs.
