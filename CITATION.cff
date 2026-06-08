@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the versioned release or archived DOI when available."
+title: "AI token-energy telecoupling public derived-data and reconstruction package"
+type: software
+version: "v1.0-applied-energy-public-release"
+date-released: 2026-06-08
+url: "https://github.com/no838/ai-token-energy-telecoupling-public"
+repository-code: "https://github.com/no838/ai-token-energy-telecoupling-public"
+license: "MIT"
+authors:
+  - family-names: "Zhou"
+    given-names: "Xi-Yin"
