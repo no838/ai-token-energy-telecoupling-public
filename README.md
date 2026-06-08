@@ -223,7 +223,7 @@ research-data archive.
 Suggested submission version label:
 
 ```text
-v1.0-applied-energy-public-release
+v1.0.1-applied-energy-public-release
 ```
 
 ## Data and code availability text

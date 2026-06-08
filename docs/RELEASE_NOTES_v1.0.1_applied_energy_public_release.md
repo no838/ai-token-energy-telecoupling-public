@@ -1,9 +1,9 @@
-# Applied Energy public release v1.0
+# Applied Energy public release v1.0.1
 
 Tag:
 
 ```text
-v1.0-applied-energy-public-release
+v1.0.1-applied-energy-public-release
 ```
 
 Repository:

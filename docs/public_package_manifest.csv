@@ -1,10 +1,10 @@
 file,size_bytes,sha256_16
 .gitignore,135,fd364131e53eb5ca
-.zenodo.json,674,79ff7f10e9e411ac
-CITATION.cff,528,62e9dad5dffbc754
+.zenodo.json,676,76bc9b8220723596
+CITATION.cff,530,0d9cdf4de18921b7
 DATA_LICENSE.md,478,f519085cbfe81b8b
 LICENSE,1068,5303b154d163c786
-README.md,7583,517acb02210ed0da
+README.md,7585,cc33ecc9dd4ea949
 THIRD_PARTY_DATA_NOTICE.md,423,f8e82efc25604d24
 data/examples/Fig2_source_data.csv,123653,03e68c81340db851
 data/examples/Fig3_source_bootstrap_spearman.csv,117680,494d3afefb439332
@@ -18,10 +18,10 @@ data/examples/Fig5_source_contextual_role_matrix.csv,1245,e17bfa54fdfebc9c
 data/examples/claim_evidence_matrix.csv,2201,85becaab8c57ab07
 data/examples/key_resources_table.csv,1367,b4e6b058813c27ef
 docs/DATA_AND_CODE_AVAILABILITY.md,1140,c2859ff12d2f91ec
-docs/RELEASE_NOTES_v1.0_applied_energy_public_release.md,1332,129e5025389e7236
+docs/RELEASE_NOTES_v1.0.1_applied_energy_public_release.md,1336,b91ec6ae88a1c68f
 docs/RELEASE_SCOPE.md,1281,9828674e00eb1390
-docs/ZENODO_ARCHIVE_CHECKLIST.md,894,acad7b1887d52e03
-docs/public_package_manifest.csv,2147,db9d61b27d0c42e1
+docs/ZENODO_ARCHIVE_CHECKLIST.md,900,e5c955517fff7be5
+docs/public_package_manifest.csv,2352,6f15abb7bd69e695
 figures/Fig1_public_evidence_frontier.png,671953,d127b2dc6754e643
 figures/Fig2_demand_execution_displacement.png,204976,69c7303aa78a1578
 figures/Fig3_compute_host_plausibility.png,334647,60678f8d2674e385
