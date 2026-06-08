@@ -2,23 +2,22 @@
 
 ## Data availability
 
-All manuscript-facing derived tables, figure source data, schema manifests, and claim-evidence alignment
-tables are released in the accompanying public GitHub code/data repository (https://github.com/no838/ai-token-energy-telecoupling-public) and will also be deposited in an archival repository package before publication.
-The release includes derived country-level demand proxies, host-allocation summaries, uncertainty
-envelopes, pathway robustness tables, figure source data, supplementary tables, null-model diagnostics,
-grouped sensitivity screens, and claim-gated evidence matrices.
-
-Upstream public-source files subject to third-party distribution terms are cited or linked rather than
-redistributed where required. Provider-routing logs, measured country-level AI electricity-load data,
-facility-level GPU utilization, provider procurement data, hourly marginal emissions, physical fuel
-procurement records, and AI-specific water-demand data are not used because they are not publicly
-observed in the current evidence frontier; they are not withheld by the author.
+Manuscript-facing derived tables, figure source data, schema records and
+claim-evidence matrices are available in the public GitHub repository at
+https://github.com/no838/ai-token-energy-telecoupling-public. The repository
+records source identifiers, derived-table structures and figure-facing
+reconstruction inputs used to audit the manuscript-facing outputs. Raw
+third-party datasets remain governed by their original licences and access
+conditions; the public release therefore provides derived tables, public
+identifiers and reconstruction inputs rather than redistributing restricted raw
+data.
 
 ## Code availability
 
-A lightweight public code package is released at https://github.com/no838/ai-token-energy-telecoupling-public with schematic figure-building scripts, manuscript-facing
-figure source data, claim-evidence tables, a key-resources table, and release-scope documentation. The
-code is designed to rebuild demonstration versions of the manuscript figures from included derived CSVs
-and to document the claim gates used by the analysis. It is not a full private-data reconstruction and
-does not include raw upstream files, provider-routing logs, measured AI electricity-load data, facility
-utilization records, procurement data, or credentials.
+Public-facing reconstruction scripts for demand harmonization, constrained host
+allocation, uncertainty propagation, null diagnostics, motif construction and
+figure-facing output reconstruction are available at
+https://github.com/no838/ai-token-energy-telecoupling-public. The code package
+rebuilds manuscript-facing derived tables and reviewer-facing reconstruction
+outputs from included source tables, subject to the licensing limits of
+third-party raw data.

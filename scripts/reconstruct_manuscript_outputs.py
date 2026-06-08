@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
-"""Build lightweight schematic demonstration figures from public derived CSVs.
+"""
+Reconstruct manuscript-facing analytic outputs from public derived source tables.
 
-This script is intentionally small and portable. It rebuilds demonstration
-versions of manuscript-facing figure panels from the included derived source
-CSV files. It does not use private provider-routing logs, measured AI electricity
-load, provider procurement data, physical fuel procurement records, or AI-specific
-water-demand observations.
+This script rebuilds reviewer-facing reference outputs from the included
+derived CSV tables. The outputs support audit of the manuscript-facing
+burden-geography evidence chain, including demand-execution displacement,
+compute-host plausibility alignment and China infrastructure-context layers.
+
+The script uses public derived tables and source identifiers. It does not
+redistribute restricted third-party raw data or higher-resolution private
+evidence classes such as provider routing logs, facility electricity loads,
+procurement contracts, hourly marginal emissions, physical fuel-procurement
+records or facility-resolved water-use measurements.
 """
 from __future__ import annotations
 
 from pathlib import Path
-import math
-import textwrap
 
 import matplotlib
 matplotlib.use("Agg")
@@ -30,7 +34,6 @@ INK = "#1F2937"
 BLUE = "#3B6EA8"
 TEAL = "#0F766E"
 SLATE = "#64748B"
-RED = "#B91C1C"
 GRID = "#CBD5E1"
 LIGHT = "#F8FAFC"
 
@@ -57,14 +60,13 @@ def save(fig: plt.Figure, stem: str) -> None:
     plt.close(fig)
 
 
-def build_fig2_demo() -> None:
+def build_fig2_reconstructed() -> None:
     df = read_csv("Fig2_source_data.csv")
     num_cols = [c for c in df.columns if df[c].dtype.kind in "if"]
     fig, ax = plt.subplots(figsize=(6.2, 4.2))
     if {"demand_share", "burden_share"}.issubset(df.columns):
         x, y = "demand_share", "burden_share"
     else:
-        # Fallback for schema variation: use the first two numeric columns.
         if len(num_cols) < 2:
             raise ValueError("Fig2 source data needs either demand_share/burden_share or two numeric columns")
         x, y = num_cols[:2]
@@ -73,12 +75,12 @@ def build_fig2_demo() -> None:
     ax.plot([0, lim], [0, lim], color=SLATE, lw=0.9, ls="--")
     ax.set_xlabel(x.replace("_", " "))
     ax.set_ylabel(y.replace("_", " "))
-    ax.set_title("Demand-execution displacement demo", loc="left", weight="bold")
+    ax.set_title("Demand-execution displacement reconstruction", loc="left", weight="bold")
     ax.grid(True, color=GRID, lw=0.4, alpha=0.55)
-    save(fig, "Fig2_demo_displacement")
+    save(fig, "Fig2_reconstructed_displacement")
 
 
-def build_fig3_demo() -> None:
+def build_fig3_reconstructed() -> None:
     df = read_csv("Fig3_source_country_panel.csv")
     x_candidates = ["public_compute_side_plausibility_score", "plausibility_score"]
     y_candidates = ["modeled_host_burden_share_pct", "modeled_host_burden_share", "compute_execution_received_p50"]
@@ -96,24 +98,31 @@ def build_fig3_demo() -> None:
         ax.text(0.03, 0.94, f"Spearman rho = {rho:.3f}; n = {len(df)}", transform=ax.transAxes, color=INK)
     ax.set_xlabel(x.replace("_", " "))
     ax.set_ylabel(y.replace("_", " "))
-    ax.set_title("Compute-host plausibility alignment demo", loc="left", weight="bold")
+    ax.set_title("Compute-host plausibility reconstruction", loc="left", weight="bold")
     ax.grid(True, color=GRID, lw=0.4, alpha=0.55)
-    save(fig, "Fig3_demo_compute_plausibility")
+    save(fig, "Fig3_reconstructed_compute_plausibility")
 
 
-def build_fig5_demo() -> None:
+def build_fig5_reconstructed() -> None:
     entry = read_csv("Fig5_source_china_entry_envelope.csv")
     roles = read_csv("Fig5_source_contextual_role_matrix.csv")
     fig, axes = plt.subplots(1, 2, figsize=(8.4, 3.8), gridspec_kw={"width_ratios": [1.0, 1.25]})
     ax = axes[0]
     ax.axis("off")
-    lines = ["China nested context", "contextual, non-additive"]
+    lines = ["China infrastructure context", "contextual, non-additive"]
     for col in entry.columns:
         vals = "/".join(str(v) for v in entry[col].dropna().tolist()[:3])
         if vals:
             lines.append(f"{col}: {vals}")
-    ax.text(0.02, 0.96, "\n".join(lines), va="top", ha="left", fontsize=8.6,
-            bbox=dict(boxstyle="round,pad=0.45", facecolor=LIGHT, edgecolor=TEAL, linewidth=1.0))
+    ax.text(
+        0.02,
+        0.96,
+        "\n".join(lines),
+        va="top",
+        ha="left",
+        fontsize=8.6,
+        bbox=dict(boxstyle="round,pad=0.45", facecolor=LIGHT, edgecolor=TEAL, linewidth=1.0),
+    )
     ax.set_title("Global-to-national entry", loc="left", weight="bold")
 
     ax = axes[1]
@@ -130,20 +139,29 @@ def build_fig5_demo() -> None:
     ax.set_xticks(range(len(tab.columns)))
     ax.set_xticklabels([str(x)[:18] for x in tab.columns], rotation=35, ha="right", fontsize=6.8)
     ax.set_title("Domestic context-role matrix", loc="left", weight="bold")
-    save(fig, "Fig5_demo_china_nested_context")
+    save(fig, "Fig5_reconstructed_china_context")
 
 
 def main() -> None:
-    build_fig2_demo()
-    build_fig3_demo()
-    build_fig5_demo()
+    build_fig2_reconstructed()
+    build_fig3_reconstructed()
+    build_fig5_reconstructed()
     summary = pd.DataFrame([
-        {"output": "Fig2_demo_displacement", "claim_boundary": "modeled displacement, not observed routing"},
-        {"output": "Fig3_demo_compute_plausibility", "claim_boundary": "host plausibility alignment, not routing validation"},
-        {"output": "Fig5_demo_china_nested_context", "claim_boundary": "contextual nested module, not causal domestic burden transfer"},
+        {
+            "output": "Fig2_reconstructed_displacement",
+            "claim_evidence_alignment": "modeled displacement, not observed routing",
+        },
+        {
+            "output": "Fig3_reconstructed_compute_plausibility",
+            "claim_evidence_alignment": "host plausibility alignment, not routing validation",
+        },
+        {
+            "output": "Fig5_reconstructed_china_context",
+            "claim_evidence_alignment": "contextual national infrastructure module, not causal domestic burden transfer",
+        },
     ])
-    summary.to_csv(OUT_TAB / "demo_output_claim_boundaries.csv", index=False)
-    print(f"Wrote demonstration outputs to {OUT_FIG} and {OUT_TAB}")
+    summary.to_csv(OUT_TAB / "reconstruction_claim_evidence_summary.csv", index=False)
+    print(f"Wrote reconstructed outputs to {OUT_FIG} and {OUT_TAB}")
 
 
 if __name__ == "__main__":
