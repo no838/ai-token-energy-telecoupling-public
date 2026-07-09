@@ -1,6 +1,6 @@
 # PUBLIC_RELEASE_AUDIT_REPORT
 
-- Generated: 2026-07-09T17:33:51
+- Generated: 2026-07-09T17:43:39
 - Release candidate root: `.`
 - Public target: `both`
 
@@ -8,8 +8,8 @@
 
 - public_title: `Public derived data and reproducibility scripts for AI data-centre burden-geography screening`
 - repository_name: `ai-token-energy-telecoupling-public`
-- release_tag: `v1.1.0`
-- archive_name: `ai-datacentre-burden-screening-derived-data-v1.1.0`
+- release_tag: `v1.1.1`
+- archive_name: `ai-datacentre-burden-screening-derived-data-v1.1.1`
 - root_folder_name: `github_schematic_code_package_20260519`
 - readme_title: `Public derived data and reproducibility scripts for AI data-centre burden-geography screening`
 - zenodo_title: `Public derived data and reproducibility scripts for AI data-centre burden-geography screening`
