@@ -1,9 +1,3 @@
-# Third-party data notice
+# Third-Party Data Notice
 
-This repository does not redistribute restricted third-party raw data.
-
-Where the manuscript uses public or third-party source material, this
-repository provides derived tables, public identifiers, schema records and
-manuscript-facing reconstruction inputs. Users who require raw source records
-should obtain them from the original source providers under the applicable
-licence and access terms.
+This release includes source identifiers, derived fields and provenance notes for public upstream sources. It does not redistribute restricted raw datasets. Users who need upstream raw records should retrieve them from the original providers under the applicable terms.

@@ -1,0 +1,4 @@
+metric,leave_one_country_p05,leave_one_country_median,leave_one_country_p95
+capacity_prior_only_comparator,0.453995,0.488464,0.551444
+full_public_compute_side_plausibility,0.894856,0.901826,0.912247
+shared_classes_removed,0.658255,0.686774,0.710932

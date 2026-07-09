@@ -1,0 +1,8 @@
+diagnostic,excluded_evidence_class,included_classes,spearman_rho,rho_drop_from_full,bootstrap_5th_95th,interpretation
+full_public_compute_side_plausibility,none,AI cluster evidence|data-center footprint|hyperscale MW|public load/capacity,0.904,0.0,0.791-0.959,baseline public plausibility score used for Tier-2 host-burden alignment
+leave_one_public_evidence_class_out,AI cluster evidence,data-center footprint|hyperscale MW|public load/capacity,0.929,-0.025,0.846-0.964,drop >0 indicates dependence on the excluded evidence class; negative drop indicates rho increases after exclusion
+leave_one_public_evidence_class_out,data-center footprint,AI cluster evidence|hyperscale MW|public load/capacity,0.834,0.069,0.688-0.918,drop >0 indicates dependence on the excluded evidence class; negative drop indicates rho increases after exclusion
+leave_one_public_evidence_class_out,hyperscale MW,AI cluster evidence|data-center footprint|public load/capacity,0.875,0.029,0.732-0.955,drop >0 indicates dependence on the excluded evidence class; negative drop indicates rho increases after exclusion
+leave_one_public_evidence_class_out,public load/capacity,AI cluster evidence|data-center footprint|hyperscale MW,0.758,0.145,0.533-0.905,drop >0 indicates dependence on the excluded evidence class; negative drop indicates rho increases after exclusion
+exclude_all_classes_shared_with_host_prior,data-center footprint|public load/capacity,AI cluster evidence|hyperscale MW,0.684,0.219,0.474-0.831,independent-only public plausibility screen after removing host-prior shared classes
+capacity_prior_only_comparator,not_applicable,capacity prior,0.492,0.411,0.173-0.750,capacity-prior comparator; weaker than public plausibility alignment

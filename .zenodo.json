@@ -1,23 +1,18 @@
 {
-  "title": "AI token-energy telecoupling public derived-data and reconstruction package",
-  "version": "v1.0.1-applied-energy-public-release",
-  "upload_type": "software",
-  "access_right": "open",
-  "license": "mit",
-  "language": "eng",
+  "title": "Public derived data and reproducibility scripts for AI data-centre burden-geography screening",
+  "upload_type": "dataset",
+  "description": "Derived tables, figure-source data, provenance notes and compact reproduction scripts for public-data screening of AI data-centre electricity and carbon burden geography.",
   "creators": [
     {
-      "name": "Zhou, Xi-Yin",
-      "affiliation": "Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation), Shenzhen 518000, China"
+      "name": "Zhou, Xi-Yin"
     }
   ],
+  "license": "MIT",
   "keywords": [
-    "AI",
-    "data centres",
-    "electricity burden",
+    "AI data centres",
+    "electricity",
     "carbon burden",
-    "telecoupling",
     "derived data",
-    "reconstruction package"
+    "reproducibility"
   ]
 }

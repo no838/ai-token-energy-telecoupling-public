@@ -1,0 +1,8 @@
+{
+  "n_countries": 35,
+  "full_rho": 0.9035646776132527,
+  "shared_removed_rho": 0.6842053606834398,
+  "capacity_prior_rho": 0.49215686274509807,
+  "public_load_capacity_removed_rho": 0.7584564764030015,
+  "seed": 20260706
+}

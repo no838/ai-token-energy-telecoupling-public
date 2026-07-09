@@ -1,0 +1,7 @@
+evidence_class,host_prior_construction,public_plausibility_score,shared_with_host_prior,independence_level_used_in_manuscript,interpretation_role
+public load/capacity,1,1,1,low,shared class; remove in independent-only sensitivity
+data-center footprint,1,1,1,low,shared class; remove in independent-only sensitivity
+AI cluster evidence,0,1,0,medium-high,public compute-side evidence not used in host prior
+hyperscale MW,0,1,0,medium-high,public compute-side evidence not used in host prior
+capacity prior,1,0,0,low,prior-consistency comparator; not folded into public score
+cloud GPU regions,0,0,0,medium,audit/comparator class; not folded into main public score

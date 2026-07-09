@@ -1,0 +1,6 @@
+Evidence layer,Observable signal,Role in framework,Boundary
+Demand-origin proxies,Country-level public AI demand signals,Origin-side demand share,not exact AI use volume
+Compute-host evidence,"Public facility, cloud-region, cluster and capacity evidence",Feasible host geography and plausibility,not provider routing
+Grid carbon intensity,Host-level annual location-based grid intensity,Direct CO2 proxy conversion,not hourly marginal emissions
+Fossil import-source shares,Host-by-source fossil import exposure,Exposure-motif construction,not physical procurement
+Domestic context layers,"National electricity, coal-equivalent and water-context evidence",Nested infrastructure context,not causal domestic transfer

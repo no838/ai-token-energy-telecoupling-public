@@ -1,0 +1,12 @@
+evidence_class,class_description,belongs_to_host_prior,belongs_to_plausibility_score,preferred_role_in_ablation,expected_independence_level
+public load/capacity,Public data-centre load or capacity-envelope evidence used to support both host plausibility and host-prior allocation weights.,1,1,shared-evidence sensitivity,low
+data-center footprint,Country-level data-centre count / footprint evidence from public facility traces; used in both the host prior and public plausibility score.,1,1,shared-evidence sensitivity,low
+AI compute,AI-compute capacity score used in the host-prior allocation layer.,1,0,host-prior construction only,medium
+public project capacity,Conservative announced hyperscale or AI-project capacity used in host weighting.,1,0,host-prior construction only,medium
+power-grid evidence,Public PPA / grid / power-support evidence used only in host-prior weighting.,1,0,host-prior construction only,medium
+service endpoint,Public endpoint / model-support / provider-region evidence used only in host-prior weighting.,1,0,host-prior construction only,low
+capacity prior,Capacity-facing prior-consistency comparator reported separately from the locked public plausibility score.,1,0,prior-consistency comparator,low
+cloud GPU regions,Candidate cloud-provider GPU-region signal retained in the audit package but excluded from the locked public plausibility score.,0,0,excluded audit candidate,medium
+AI cluster evidence,Public AI cluster evidence from accelerator- and power-related statements used as public compute-side plausibility support.,0,1,independent public-evidence plausibility support,medium-high
+hyperscale MW,Conservative hyperscale MW and project-count evidence used in compute-host plausibility checks.,0,1,independent public-evidence plausibility support,medium-high
+direct measured AI load gate,Binary gate for direct measured AI-load availability; diagnostic only because the current count is zero.,0,0,diagnostic only,high

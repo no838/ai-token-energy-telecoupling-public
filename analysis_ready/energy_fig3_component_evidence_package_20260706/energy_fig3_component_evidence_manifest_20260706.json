@@ -1,0 +1,21 @@
+{
+  "export_date": "20260706",
+  "output_dir": "data_code_materials/analysis_ready/energy_fig3_component_evidence_package_20260706",
+  "output_xlsx": "data_code_materials/analysis_ready/energy_fig3_component_evidence_package_20260706/energy_fig3_component_evidence_package_20260706.xlsx",
+  "sheet_row_counts": {
+    "01_country_universe": 173,
+    "02_host_prior_components": 1038,
+    "03_plausibility_components": 490,
+    "04_evidence_class_dict": 11,
+    "05_source_registry": 10,
+    "06_optional_facility_data": 6243,
+    "07_optional_china_context": 31
+  },
+  "notes": {
+    "country_universe": "All countries from the modeled uncertainty envelope; feasible_host_flag marks the current Fig.3 host set.",
+    "host_prior_components": "All countries from the IEA-anchored public-evidence allocation table; standardized scores are the existing host-prior signals.",
+    "plausibility_components": "Current 35-country compute-side validation universe; standardized scores rebuilt from the published validation formulas.",
+    "optional_facility_data": "Facility sheet is partial public-baseline evidence only and is not a complete global census.",
+    "optional_china_context": "China sheet is a bounded SI-support panel; coal_equivalent_mtce and grid_region remain blank where no schema-locked authority was available."
+  }
+}

@@ -1,14 +1,5 @@
-__pycache__/
 .DS_Store
+__pycache__/
 *.pyc
-*.pyo
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
 .venv/
-.env
-.env.*
-/data/raw/
-/data/cache/
-/outputs/
-*.log
+outputs/

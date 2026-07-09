@@ -1,0 +1,106 @@
+metric,left_out_iso3,left_out_country,spearman_rho
+full_public_compute_side_plausibility,USA,United States,0.894797
+shared_classes_removed,USA,United States,0.655232
+capacity_prior_only_comparator,USA,United States,0.445989
+full_public_compute_side_plausibility,FRA,France,0.894797
+shared_classes_removed,FRA,France,0.655232
+capacity_prior_only_comparator,FRA,France,0.480825
+full_public_compute_side_plausibility,MYS,Malaysia,0.897853
+shared_classes_removed,MYS,Malaysia,0.704579
+capacity_prior_only_comparator,MYS,Malaysia,0.601222
+full_public_compute_side_plausibility,NOR,Norway,0.896020
+shared_classes_removed,NOR,Norway,0.659550
+capacity_prior_only_comparator,NOR,Norway,0.541635
+full_public_compute_side_plausibility,ARE,United Arab Emirates,0.896936
+shared_classes_removed,ARE,United Arab Emirates,0.660475
+capacity_prior_only_comparator,ARE,United Arab Emirates,0.490604
+full_public_compute_side_plausibility,IND,India,0.896936
+shared_classes_removed,IND,India,0.660475
+capacity_prior_only_comparator,IND,India,0.468908
+full_public_compute_side_plausibility,SAU,Saudi Arabia,0.896936
+shared_classes_removed,SAU,Saudi Arabia,0.660475
+capacity_prior_only_comparator,SAU,Saudi Arabia,0.574332
+full_public_compute_side_plausibility,SGP,Singapore,0.904271
+shared_classes_removed,SGP,Singapore,0.706121
+capacity_prior_only_comparator,SGP,Singapore,0.492437
+full_public_compute_side_plausibility,GBR,United Kingdom,0.898464
+shared_classes_removed,GBR,United Kingdom,0.666644
+capacity_prior_only_comparator,GBR,United Kingdom,0.492437
+full_public_compute_side_plausibility,IRL,Ireland,0.898464
+shared_classes_removed,IRL,Ireland,0.737367
+capacity_prior_only_comparator,IRL,Ireland,0.521467
+full_public_compute_side_plausibility,DEU,Germany,0.902743
+shared_classes_removed,DEU,Germany,0.678364
+capacity_prior_only_comparator,DEU,Germany,0.489381
+full_public_compute_side_plausibility,CAN,Canada,0.907327
+shared_classes_removed,CAN,Canada,0.689467
+capacity_prior_only_comparator,CAN,Canada,0.488770
+full_public_compute_side_plausibility,AUS,Australia,0.911605
+shared_classes_removed,AUS,Australia,0.704271
+capacity_prior_only_comparator,AUS,Australia,0.488770
+full_public_compute_side_plausibility,JPN,Japan,0.905493
+shared_classes_removed,JPN,Japan,0.684840
+capacity_prior_only_comparator,JPN,Japan,0.488464
+full_public_compute_side_plausibility,BRA,Brazil,0.909772
+shared_classes_removed,BRA,Brazil,0.693476
+capacity_prior_only_comparator,BRA,Brazil,0.489076
+full_public_compute_side_plausibility,NLD,Netherlands,0.907938
+shared_classes_removed,NLD,Netherlands,0.699028
+capacity_prior_only_comparator,NLD,Netherlands,0.493965
+full_public_compute_side_plausibility,KOR,South Korea,0.913744
+shared_classes_removed,KOR,South Korea,0.692242
+capacity_prior_only_comparator,KOR,South Korea,0.492743
+full_public_compute_side_plausibility,CHE,Switzerland,0.906716
+shared_classes_removed,CHE,Switzerland,0.689775
+capacity_prior_only_comparator,CHE,Switzerland,0.482659
+full_public_compute_side_plausibility,ITA,Italy,0.906716
+shared_classes_removed,ITA,Italy,0.689775
+capacity_prior_only_comparator,ITA,Italy,0.483270
+full_public_compute_side_plausibility,SWE,Sweden,0.901826
+shared_classes_removed,SWE,Sweden,0.691009
+capacity_prior_only_comparator,SWE,Sweden,0.483270
+full_public_compute_side_plausibility,ESP,Spain,0.901826
+shared_classes_removed,ESP,Spain,0.691009
+capacity_prior_only_comparator,ESP,Spain,0.482659
+full_public_compute_side_plausibility,BEL,Belgium,0.908549
+shared_classes_removed,BEL,Belgium,0.686774
+capacity_prior_only_comparator,BEL,Belgium,0.479603
+full_public_compute_side_plausibility,NZL,New Zealand,0.908549
+shared_classes_removed,NZL,New Zealand,0.686774
+capacity_prior_only_comparator,NZL,New Zealand,0.481131
+full_public_compute_side_plausibility,FIN,Finland,0.911300
+shared_classes_removed,FIN,Finland,0.701187
+capacity_prior_only_comparator,FIN,Finland,0.480214
+full_public_compute_side_plausibility,ZAF,South Africa,0.906410
+shared_classes_removed,ZAF,South Africa,0.681700
+capacity_prior_only_comparator,ZAF,South Africa,0.491826
+full_public_compute_side_plausibility,POL,Poland,0.903965
+shared_classes_removed,POL,Poland,0.686691
+capacity_prior_only_comparator,POL,Poland,0.485714
+full_public_compute_side_plausibility,CHN,China,0.940943
+shared_classes_removed,CHN,China,0.722159
+capacity_prior_only_comparator,CHN,China,0.477158
+full_public_compute_side_plausibility,MEX,Mexico,0.897853
+shared_classes_removed,MEX,Mexico,0.672780
+capacity_prior_only_comparator,MEX,Mexico,0.477769
+full_public_compute_side_plausibility,ISR,Israel,0.901520
+shared_classes_removed,ISR,Israel,0.694710
+capacity_prior_only_comparator,ISR,Israel,0.539190
+full_public_compute_side_plausibility,IDN,Indonesia,0.897242
+shared_classes_removed,IDN,Indonesia,0.669244
+capacity_prior_only_comparator,IDN,Indonesia,0.490604
+full_public_compute_side_plausibility,TWN,Taiwan,0.903354
+shared_classes_removed,TWN,Taiwan,0.693476
+capacity_prior_only_comparator,TWN,Taiwan,0.468296
+full_public_compute_side_plausibility,HKG,Hong Kong,0.895408
+shared_classes_removed,HKG,Hong Kong,0.674663
+capacity_prior_only_comparator,HKG,Hong Kong,0.500076
+full_public_compute_side_plausibility,CHL,Chile,0.896020
+shared_classes_removed,CHL,Chile,0.664938
+capacity_prior_only_comparator,CHL,Chile,0.448434
+full_public_compute_side_plausibility,QAT,Qatar,0.894882
+shared_classes_removed,QAT,Qatar,0.664938
+capacity_prior_only_comparator,QAT,Qatar,0.467380
+full_public_compute_side_plausibility,BHR,Bahrain,0.894882
+shared_classes_removed,BHR,Bahrain,0.664938
+capacity_prior_only_comparator,BHR,Bahrain,0.456379

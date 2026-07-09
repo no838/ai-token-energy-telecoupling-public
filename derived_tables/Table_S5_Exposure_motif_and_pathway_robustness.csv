@@ -1,0 +1,15 @@
+item,pathway/motif class,top-25 inclusion frequency,median rank,Jaccard or rank-spread metric,scenario persistence category,claim supported
+non_null_combo_count,summary statistic,20.0,,20.00,4 demand sources x 5 non-null routing scenarios expected.,recurring exposure motifs; not exact chain identity
+baseline_top10_min_top25_frequency,summary statistic,0.55,,0.5500,Low values mean some Figure 4 exposure motifs are S2-sensitive and should be written as illustrative.,recurring exposure motifs; not exact chain identity
+baseline_top10_mean_top25_frequency,summary statistic,0.74,,0.7400,Average top25 inclusion frequency across baseline top 10.,recurring exposure motifs; not exact chain identity
+median_top25_jaccard_vs_baseline,summary statistic,0.3514,,0.3514,Median top25 pathway-set overlap across scenario/demand combinations relative to baseline.,recurring exposure motifs; not exact chain identity
+baseline rank 1,USA>USA>CAN,1.0,1.0,rank IQR 0.0000,highly_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 2,USA>CAN>USA,1.0,2.0,rank IQR 0.0000,highly_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 3,USA>USA>MEX,0.9,7.0,rank IQR 10.00,highly_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 4,USA>ARE>IND,0.6,14.0,rank IQR 44.00,moderately_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 5,IND>IND>RUS,0.7,8.5,rank IQR 30.00,moderately_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 6,IND>IND>IDN,0.65,11.5,rank IQR 32.75,moderately_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 7,USA>MEX>USA,0.85,6.0,rank IQR 5.750,highly_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 8,IND>ARE>IND,0.6,8.0,rank IQR 34.50,moderately_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 9,USA>USA>SAU,0.55,22.0,rank IQR 35.00,moderately_persistent_top25,motif persistence only; country triplet remains scenario-derived
+baseline rank 10,IND>MYS>IDN,0.55,22.5,rank IQR 30.75,moderately_persistent_top25,motif persistence only; country triplet remains scenario-derived
