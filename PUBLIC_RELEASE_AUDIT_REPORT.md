@@ -1,7 +1,7 @@
 # PUBLIC_RELEASE_AUDIT_REPORT
 
-- Generated: 2026-07-09T17:27:20
-- Release candidate root: `/Users/raism/Desktop/Raism/论文写/2026/TOKEN/ai_token_energy_telecoupling/github_schematic_code_package_20260519`
+- Generated: 2026-07-09T17:33:51
+- Release candidate root: `.`
 - Public target: `both`
 
 ## Public metadata
